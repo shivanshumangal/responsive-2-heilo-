@@ -64,12 +64,14 @@
 /* second part starts */
 .second-part{
     background-color: #f2f2f2;
+    overflow: auto;
 }
 .content-width{
     text-align: center;
     width: 80%;
     margin: 0 auto;
-    padding: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .second-part .content-width .left{
     float: left;
@@ -200,7 +202,8 @@
         width: 100%;
         clear: both;
         margin-top: 5%;
-        margin: 0 auto;
+        /* margin: 0 auto; */
+        
     }
     .forth-part img{
         width: 100%;
