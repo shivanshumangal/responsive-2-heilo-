@@ -1,0 +1,209 @@
+/* reset and font */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* bannerstrts */
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/slide01.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    overflow: auto;
+}
+/* nav starts */
+.nav{
+    margin-top: 30px;
+}
+.nav h3{
+    float: left;
+    margin-left: 11px;
+}
+.nav h3 span{
+    font-weight: lighter;
+}
+.nav h4{
+    float: right;
+    margin-right: 20px;
+}
+/* navigation parts completes */
+/* text area starts */
+.textarea{
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+.textarea p{
+    letter-spacing: 3px;
+}
+.textarea p a{
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px dotted white;
+}
+.textarea hr{
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.textarea h1{
+    font-size: 97px;
+    font-weight: 300;
+}
+/* textarea completed */
+/* bannner ends */
+/* second part starts */
+.second-part{
+    background-color: #f2f2f2;
+}
+.content-width{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px;
+}
+.second-part .content-width .left{
+    float: left;
+    width: 45%;
+    background-color: #fff;
+}
+.second-part .content-width .right{
+    float: right;
+    width: 45%;
+    background-color: #fff;
+}
+.second-part img{
+    width: 100%;
+}
+.second-part h6{
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: gray;
+}
+.second-part hr{
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.second-part h5{
+    color: black;
+    font-size: xx-large;
+}
+.second-part p{
+    text-align: left;
+    color: gray;
+    font-size: small;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.second-part button{
+    width: 116px;
+    height: 29px;
+    margin-bottom: 54px;
+}
+.second-part button a{
+    color: green;
+    background: none;
+    text-decoration: none;
+}
+/* second parts completed */
+/* third part strts */
+.third-part{
+    width: 100%;
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+     background-attachment: fixed;
+     color: #fff;
+     text-align: center;
+     overflow: auto;
+}
+.third-part h5{
+    letter-spacing: 5px;
+    margin-top: 50px;
+    font-weight: 400;
+}
+.third-part hr{
+    width: 40%;
+    margin: 0 auto;
+}
+.third-part h2{
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+/* third part completed */
+/* forth part starts */
+.forth-part{
+    background-color: #f2f2f2;
+    text-align: center;
+    overflow: auto;
+}
+.forth-part h5{
+    letter-spacing: 5px;
+    margin-top: 50px;
+    font-weight: 400;
+    color: #d2d2d2;
+}
+.forth-part hr{
+    width: 40%;
+    margin: 0 auto;
+}
+.forth-part h2{
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+.forth-part .img-secter{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 33px;
+    margin-bottom: 106px;
+}
+.forth-part img{
+    width: 45%;
+    border: 10px solid white;
+}
+/* forth part ends */
+/* lastpart starts */
+.lastpart{
+    background-color: black;
+    color: grey;
+    text-align: center;
+    height: 200px;
+}
+ .lastpart .fa{
+    margin-top: 84px;
+    margin-left: 20px;
+    font-size: xx-large;
+}
+.lastpart p{
+    /* margin-bottom: 74px; */
+    margin-top: 8px;
+    font-size: large;
+}
+/* lastpart end */
+/* for computer screen its complteted */
+/* media quarry starts */
+@media only screen and (max-width:937px){
+    .second-part .content-width .right,.second-part .content-width .left{
+        width: 100%;
+        clear: both;
+        margin-top: 5%;
+        margin: 0 auto;
+    }
+    .forth-part img{
+        width: 100%;
+        clear: both;
+    }
+}
